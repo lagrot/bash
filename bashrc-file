@@ -1,0 +1,24 @@
+# Load custom bashrc
+for f in ~/.config/bashrc/*.sh; do
+          source $f
+  done
+
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l.='ls -d .* --color=auto'
+alias la='ls -Alh --color=always'
+alias ll='ls -Fls --color=always'
+alias ls='ls -aFh --color=always'
+alias openports='netstat -nape --inet'
+alias vi='vim'
+alias xzegrep='xzegrep --color=auto'
+alias xzfgrep='xzfgrep --color=auto'
+alias xzgrep='xzgrep --color=auto'
+alias zegrep='zegrep --color=auto'
+alias zfgrep='zfgrep --color=auto'
+alias zgrep='zgrep --color=auto'
+
+export OPENAI_API_KEY='XXXXXXX'
+alias @ai='~/ai.sh'
+screenfetch
