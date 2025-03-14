@@ -11,7 +11,10 @@ for f in ~/.config/bashrc/*.sh; do
 done
 to .bashrc
 
-prompt.sh is depending on: https://github.com/agkozak/polyglot https://github.com/jonmosco/kube-ps1 https://github.com/agkozak/polyglot-kube-ps1
+prompt.sh is depending on: 
+https://github.com/agkozak/polyglot 
+https://github.com/jonmosco/kube-ps1 
+https://github.com/agkozak/polyglot-kube-ps1
 
 git clone https://github.com/agkozak/polyglot.git  
 git clone https://github.com/jonmosco/kube-ps1.git  
