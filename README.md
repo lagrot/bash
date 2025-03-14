@@ -2,6 +2,16 @@
 
 config files for some programs. located in home folder root
 
+'''bash
+ $ tree .config/
+.config/
+├── bashrc
+│   ├── 00-proxy.sh
+│   ├── alias.sh
+│   ├── history.sh
+│   └── prompt.sh
+└── procps
+'''
 
 
 add
