@@ -2,7 +2,7 @@
 
 config files for some programs. located in home folder root
 
-```console
+```bash
  $ tree .config/
 .config/
 ├── bashrc
@@ -11,7 +11,7 @@ config files for some programs. located in home folder root
 │   ├── history.sh
 │   └── prompt.sh
 └── procps
-´´´
+```
 
 
 add
